@@ -1,0 +1,60 @@
+.cogeco-project-container{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.cogeco-project-container > h1 {
+    color: #333;
+    font-weight: bold;
+    font-size: 3rem;
+    
+}
+.cogeco-project-text {
+    display: flex;
+    flex-direction: column; /* Stack the title and paragraph vertically */
+    max-width: 40%; /* Restrict width for text */
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.cogeco-project-text > h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+    font-weight: bold;
+    
+}
+.cogeco-project-text > hr {
+    width: 50%; /* Adjust width of the line */
+    border: 0; /* Remove default border styling */
+    border-top: 2px solid #ccc; /* Create a custom line */
+    margin: 0.5rem 0 1rem; /* Add spacing around the line */
+    margin: auto;
+    margin-bottom: 20px;
+}
+.cogeco-project-image {
+    padding: 2rem;
+    max-width: 50%;
+    height: auto;
+    margin-top: 20px;    
+    overflow: hidden;
+}
+.cogeco-project-container > p {
+    margin-top: 60px;
+    text-align: center;
+    max-width: 50%;
+}
+
+.cogeco-project-bundle {
+    display: flex;
+    flex: 1;
+    margin: 0 1rem;
+}
