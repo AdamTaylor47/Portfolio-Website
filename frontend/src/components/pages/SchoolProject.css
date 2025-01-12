@@ -64,3 +64,28 @@
     max-width: 75%;
 }
 
+@media screen and (max-width: 768px) {
+    .school-project-container > h1 {
+        font-size: 40px;
+        max-width: 90%;
+        
+    }
+    .school-project-text > hr {
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .school-project-text {
+        max-width: 90%;
+        text-align: center;
+    }
+    .school-project-section-one{
+        flex-flow: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .school-project-image {
+        max-width: 100%;
+    }
+}

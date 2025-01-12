@@ -16,7 +16,7 @@ export default function About() {
                     </p>
                 </div>
                 <img
-                    src='images/background1.png'
+                    src='images/me.jpg'
                     alt='picture-of-me'
                     className='profile-picture'
                 />
@@ -25,16 +25,16 @@ export default function About() {
                 <div className='about-section-two-text'>
                     <h2>Creative & Visual Development</h2>
                     <p>
-                        I enjoy working on creative and visually engaging aspects of development. It’s exciting to design interfaces and bring ideas to life in a way that users can interact with and enjoy. Object orientated and front-end development are my favorites.
+                        My passion lies in crafting engaging and visually appealing interfaces. I enjoy bringing concepts to life through creative design and user-friendly interactions, with front-end and object-oriented development being areas I find most exciting.
                     </p>
                 </div>
                 <div className='pie-chart-container'>
                     <PieChart/>
                 </div>
                 <div className='about-section-two-text'>
-                    <h2>Creative & Visual Development</h2>
+                    <h2>Logical & Technical Development</h2>
                     <p>
-                        While not my primary focus, I appreciate the problem-solving challenges of backend and technical work. It's rewarding to ensure everything functions smoothly behind the scenes.
+                         I value the problem-solving aspects of technical and backend development. Ensuring systems work seamlessly is a satisfying challenge that complements my skill set and broadens my capabilities. I recognize the importance of a strong backend foundation in creating robust and scalable applications.
                     </p>
                 </div>
             </div>

@@ -58,3 +58,21 @@
     flex: 1;
     margin: 0 1rem;
 }
+
+@media screen and (max-width: 768px) {
+    .cogeco-project-container > h1 {
+        font-size: 40px;
+    }
+    .cogeco-project-text{
+        max-width: 90%;
+    }
+    .cogeco-project-image {
+        max-width: 90%;
+    }
+    .cogeco-project-bundle{
+        max-width: 100%;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+}

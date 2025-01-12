@@ -11,7 +11,7 @@ export default function Contact() {
             <div className='contact-section-one'>
                 <div className='contact-section-one-text'>
                     <h1>Contact.</h1>
-                    <h2>Feel free to contact for anything<br/> (email is the best)</h2>
+                    <h2>Feel free to contact for anything through my email</h2>
                 </div>
                 <div className='icon-container'>
                     <div className='icon-bundle'>
@@ -27,9 +27,15 @@ export default function Contact() {
                         </a>
                     </div>
                     <div className='icon-bundle'>
-                        <a href="">
+                        <a href="https://drive.google.com/file/d/1NzBAOg0b9efsIbZg40d0aELKQCBowHWm/view?usp=sharing" target='blank'>
                             <FontAwesomeIcon icon="fa-solid fa-file" size='5x' style={{color: "#74C0FC",}} />
                             <h3>Resume</h3>
+                        </a>
+                    </div>
+                    <div className='icon-bundle'>
+                        <a id='emailMe' href="mailto:adam.taylor0147@gmail.com">
+                        <FontAwesomeIcon icon="fa-solid fa-envelope" size='5x' style={{color: "#74C0FC",}} />
+                            <h3>Email<br/>adam.taylor0147@gmail.com</h3>
                         </a>
                     </div>
                 </div>

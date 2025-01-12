@@ -84,10 +84,12 @@
       display: flex;
       flex-direction: column;
       width: 100%;
-      height: 90vh;
+      height: auto; /* Use auto to avoid extra blank space */
       position: absolute;
-      top: 80px;
+      top: 80px; /* Adjust this value if necessary */
       left: -100%;
+      padding: 0;
+      margin: 0;
       opacity: 1;
       transition: all 0.5s ease;
     }
@@ -102,8 +104,9 @@
   
     .nav-links {
       text-align: center;
-      padding: 2rem;
+      padding: 2rem 0;
       width: 100%;
+      margin: 0;
       display: table;
     }
   
@@ -156,3 +159,4 @@
       transition: 250ms;
     }
   }
+  

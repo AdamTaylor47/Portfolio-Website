@@ -16,7 +16,7 @@ export default function CogecoProject() {
             <h2>The Tool</h2>
             <hr/>
                 <p>
-                    This is a tool I developed to make the process of transferring customers more efficient at Cogeco. While I was employed there, a common frustration amongst employees was that insufficient information was being passed along when transferring a customer to another department. I decided to resolve this issue and develop a tool that allows you to input the information about the current call, and have the program output the information in the standard format. This solved a few problems: Ensuring all vital information was sent when transferring for security purposes, and making sure the information was presented in a specific way that is consistent across the whole company.
+                    This is a tool I developed to streamline the process of transferring customers at Cogeco. During my time there, a common frustration among employees was the lack of sufficient information being passed along when transferring a customer to another department. To address this issue, I created a tool that allows users to input information about the current call and outputs it in a standardized format. This solution resolved several problems: it ensured that all vital information was transferred for security purposes and that the information was presented in a consistent and standardized manner across the company.
 
                 </p>
             </div>

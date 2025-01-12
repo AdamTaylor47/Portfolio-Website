@@ -11,10 +11,10 @@ import SchoolProject from './components/pages/SchoolProject';
 import KnightsOfColumbus from './components/pages/KnightsOfColumbus';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faCoffee, faHeart, faFile } from '@fortawesome/free-solid-svg-icons';
+import { faCoffee, faHeart, faFile, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faTwitter,faLinkedin,faGithub } from '@fortawesome/free-brands-svg-icons';
 
-library.add(faCoffee, faHeart, faTwitter, faLinkedin,faGithub, faFile);
+library.add(faCoffee, faHeart, faTwitter, faLinkedin,faGithub, faFile, faEnvelope);
 function App() {
   return (
     <>
